@@ -59,6 +59,6 @@ After you get success
 sbt:Burq> test:runMain riscv.Launcher conn --backend-name verilator
 ```
 After success you will get a folder ***test_run_dir*** on root of your folder. Go into the examples folder inside.\
-There you will find the folder named Top. Enter in it and you can find the Top.vcd file which you visualise on **gtkwave** to\
+There you will find the folder named Top. Enter in it and you can find the conn.vcd file which you visualise on **gtkwave** to\
 see your program running.
 
