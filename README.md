@@ -38,7 +38,7 @@ Find the following line
 loadMemoryFromFile(mem, "/home/raheel/aaa.txt")
 ```
 Change the .txt file path to match your file that you created above storing your own program instructions.\
-After setting up the InstructionMem.scala file, go inside the Nano-H folder.
+After setting up the InstructionMem.scala file, go inside the Burq folder.
 ```ruby
 cd Burq
 ```
