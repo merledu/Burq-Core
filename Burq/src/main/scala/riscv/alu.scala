@@ -61,7 +61,7 @@ class alu extends Module{
 			
 	
 		}.elsewhen(io.alu_c === "b10001".U || io.alu_c === "b10111".U){ //17,bne
-			when(io.A!=io.B){
+			when(io.A=/=io.B){
 				io.alu_output:=1.S
 			}.otherwise{
 				io.alu_output:=0.S

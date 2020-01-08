@@ -19,7 +19,7 @@ class instruction extends Module{
 		val mem =Mem(1024,UInt(32.W)) //1032 lines of instruction file and 32.W
 
 		io.r_data := mem(io.write_address)
-		loadMemoryFromFile(mem,"/home/raheel/aa.txt")
+		loadMemoryFromFile(mem,"/home/raheel/mach.txt")
 	
 }
 		
